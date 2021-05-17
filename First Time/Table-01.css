@@ -1,0 +1,32 @@
+table{
+	border: 2px black solid;
+	border-collapse: collapse;
+	width: 50%;
+}
+table caption{
+	font-size: 20px;
+	color: orange;
+	background-color: gray;
+}
+th, td{
+	border: 1px black solid;
+	text-align: center;
+	font-style: bold;
+	padding: 5px;
+}
+th{
+	background-color: green;
+	color: white;
+}
+tr:nth-child(even){
+	background-color: tomato;
+}
+tr:nth-child(odd){
+	background-color: gray;
+}
+tr:hover{
+	background-color: blue;
+}
+body{
+	padding: 10px;
+}

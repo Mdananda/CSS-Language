@@ -1,0 +1,9 @@
+.bd{
+	margin: 20px;
+	padding: 10px;
+	border: 5px green solid;
+	border-radius: 30px;
+}
+h1{
+	width: 200px;
+}

@@ -1,0 +1,17 @@
+h2{
+	display: inline;
+}
+span{
+	display: block;
+}
+
+div{
+	height: 200px;
+	width: 200px;
+	background-image: linear-gradient(red, blue, black);
+}
+.bd{
+	height: 200px;
+	width: 200px;
+	background-image: radial-gradient(circle, red, blue, black);
+}

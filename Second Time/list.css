@@ -1,0 +1,39 @@
+.course-list {
+    background-color: goldenrod;
+    padding: 15px;
+}
+
+.course-list li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 5px;
+    /* color: white; */
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    /*list-style-image: url("logo.png"); */
+}
+
+
+/* Second Part  */
+
+.course-name {
+    background-color: tomato;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.course-name li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.course-name li::before {
+    content: '\f058';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bolder;
+    display: inline-block;
+    margin: 5px 5px;
+    color: green;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: azure;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .header {
+            background-color: coral;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .nav {
+            background-color: cadetblue;
+            /* height: 100%; */
+            padding-bottom: 522px;
+        }
+        
+        .nav a {
+            text-decoration: none;
+            display: block;
+            padding: 15px;
+            /* margin: 5px; */
+            font-size: 1.2rem;
+            color: white;
+        }
+        
+        .main {
+            background-color: crimson;
+            padding: 5px;
+            padding-bottom: 212px;
+        }
+        
+        .main h2 {
+            text-align: center;
+        }
+        
+        .main p {
+            padding: 0px 10px;
+            text-align: justify;
+        }
+        
+        .aside {
+            background-color: darkcyan;
+            padding: 15px;
+        }
+        
+        .footer {
+            background-color: black;
+            text-align: center;
+            font-size: 1rem;
+            color: white;
+            padding: 5px;
+        }
+        
+        .col-1 {
+            width: 8.33%;
+        }
+        
+        .col-2 {
+            width: 16.66%;
+        }
+        
+        .col-3 {
+            width: 25%;
+        }
+        
+        .col-4 {
+            width: 33.33%;
+        }
+        
+        .col-5 {
+            width: 41.66%;
+        }
+        
+        .col-6 {
+            width: 50%;
+        }
+        
+        .col-7 {
+            width: 58.33%;
+        }
+        
+        .col-8 {
+            width: 66.66%;
+        }
+        
+        .col-9 {
+            width: 75%;
+        }
+        
+        .col-10 {
+            width: 83.33%;
+        }
+        
+        .col-11 {
+            width: 91.66%;
+        }
+        
+        .col-12 {
+            width: 100%;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            /* padding: 5px; */
+        }
+        
+        [class*="col-"]::after {
+            content: '';
+            clear: both;
+        }
+        
+        .div1 {
+            padding: 0px 10px;
+            text-align: justify;
+        }
+        
+        @media screen and (max-width: 792px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+            .nav a {
+                text-align: center;
+                /* background-color: indigo; */
+                border-radius: 10px;
+                margin: 5px;
+            }
+            .nav a:hover {
+                background-color: indigo;
+            }
+            .nav {
+                background-color: cadetblue;
+                padding: 5px;
+            }
+            .main {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header col-12">
+        <h1>Md Ananda Mia</h1>
+    </div>
+
+    <div class="nav col-2">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="main col-7">
+        <h2>I am a Programer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, autem? Enim ipsam molestias quibusdam nostrum reprehenderit expedita rerum quisquam voluptates dolorem quia nemo doloribus deleniti culpa itaque, pariatur maiores aperiam tenetur!
+            Vitae porro minus adipisci nemo amet incidunt quos veritatis labore ad, tempore eius repellendus sed earum distinctio sint. Maiores reiciendis quos distinctio placeat sapiente, ipsam fugiat libero eaque voluptatibus labore deserunt mollitia
+            nesciunt soluta dicta fugit unde? Facere inventore sapiente eligendi quos omnis tenetur aliquid voluptatum dolorum fugiat. Ea iusto delectus omnis, porro excepturi suscipit adipisci reprehenderit quibusdam similique praesentium dolore soluta
+            alias eius neque ex quos cum odit mollitia facilis labore? Ut, aspernatur! Recusandae distinctio quas obcaecati minus iusto non asperiores? Ipsum et obcaecati qui neque eos explicabo quidem voluptates accusantium maiores dolor placeat similique
+            cum, natus facilis? Rem, voluptate? Praesentium nesciunt provident tenetur, consequuntur necessitatibus architecto quis id voluptas laudantium nulla dolore consectetur dolor nisi cum. Blanditiis magnam vero fugiat adipisci? Accusamus aperiam
+            saepe nostrum totam fuga pariatur nemo praesentium et porro nobis inventore culpa voluptatem cum enim molestias adipisci delectus provident possimus esse ex, omnis fugiat consectetur, perferendis illo! Repellat eius dicta et labore ratione
+            quod enim beatae id nemo iste, quas ullam minus reiciendis officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta enim ea possimus iste. Recusandae explicabo culpa ipsam at. Est vel alias eum iste et delectus voluptatum odit
+            mollitia accusantium, culpa asperiores praesentium tempora laborum aperiam illum numquam eius tempore ipsam quibusdam dolorem corrupti ab quas sunt. Minus earum rem laudantium perspiciatis quae, totam maxime rerum perferendis ipsum eos veritatis
+            accusamus porro sint nostrum iusto deleniti voluptatem eligendi ex ut consequatur alias illum tempora. Quia porro fugit impedit voluptatibus corrupti corporis magnam quaerat doloribus in accusantium voluptate pariatur temporibus vel perspiciatis
+            libero expedita iusto quo quisquam eligendi non nobis, nostrum adipisci. </p>
+    </div>
+
+    <div class="aside col-3">
+        <div class="div1">
+            <h2>HTML</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorum ea assumenda dolorem tenetur ad sapiente corporis ut in. Maxime repellendus eveniet explicabo ab assumenda dolorem nobis aliquid corporis modi fugiat, repudiandae
+                aperiam nesciunt dicta? Rem reiciendis dolore ipsa itaque?</p>
+        </div>
+
+        <div class="div1">
+            <h2>CSS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorum ea assumenda dolorem tenetur ad sapiente corporis ut in. Maxime repellendus eveniet explicabo ab assumenda dolorem nobis aliquid corporis modi fugiat, repudiandae
+                aperiam nesciunt dicta? Rem reiciendis dolore ipsa itaque?</p>
+        </div>
+
+        <div class="div1">
+            <h2>JS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorum ea assumenda dolorem tenetur ad sapiente corporis ut in. Maxime repellendus eveniet explicabo ab assumenda dolorem nobis aliquid corporis modi fugiat, repudiandae
+                aperiam nesciunt dicta? Rem reiciendis dolore ipsa itaque?</p>
+        </div>
+    </div>
+
+    <div class="footer col-12">
+        <p>@ I am Footer</p>
+    </div>
+</body>
+
+</html>

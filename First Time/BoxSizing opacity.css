@@ -1,0 +1,29 @@
+.div1{
+	height: 200px;
+	width: 50%;
+	background-color: green;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.div2{
+	height: 200px;
+	width: 50%;
+	background-color: blue;
+	float: left;
+	text-indent: 10px;
+	box-sizing: border-box;
+	padding: 5px;
+	text-align: justify;
+}
+
+img{
+	height: 400px;
+	width: 600px;
+	opacity: .5;
+}
+
+img:hover{
+	opacity: 1;
+}

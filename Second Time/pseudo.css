@@ -1,0 +1,43 @@
+.para:hover {
+    color: green;
+    font-size: 2rem;
+}
+
+input {
+    width: 150px;
+    transition: width .3s ease-in-out;
+}
+
+
+/*For pseudo class, normally use only one colon mark.*/
+
+input:focus {
+    width: 300;
+    border: 2px solid burlywood;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+
+/*For pseudo element, using double colon mark.*/
+
+.para::first-letter {
+    color: tomato;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
+.demo p:first-child {
+    color: white;
+    background-color: tomato;
+}
+
+.demo p:nth-child(3) {
+    color: white;
+    background-color: tomato;
+}
+
+.demo p:hover {
+    background-color: goldenrod;
+    color: red;
+}

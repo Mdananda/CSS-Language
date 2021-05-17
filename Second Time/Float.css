@@ -1,0 +1,13 @@
+.sec1 {
+    background-color: aqua;
+    float: left;
+}
+
+.sec2 {
+    background-color: bisque;
+    float: right;
+}
+
+.sec3 {
+    clear: both;
+}

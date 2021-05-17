@@ -1,0 +1,34 @@
+div{
+	height: 200px;
+	width: 200px;
+	background-color: green;
+	overflow: scroll;
+	border: 2px red solid;
+	left: 50px;
+	top: 50px;
+	position: absolute;
+}
+div p{
+	text-indent: 20px;
+	text-align: justify;
+	padding: 3px;
+}
+
+a{
+	position: relative;
+}
+
+a span{
+	background-color: green;
+	text-indent: 5px;
+	visibility: hidden;
+	border: 2px red solid;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	height: 40px;
+	width: 150px;
+}
+a:hover span{
+	visibility: visible;
+}

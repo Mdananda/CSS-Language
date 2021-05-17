@@ -1,0 +1,47 @@
+.drp {
+    background-color: gray;
+    padding: 10px;
+    text-align: center
+}
+
+.drp a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.drp-container {
+    display: inline;
+    position: relative;
+}
+
+.drp-content {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: gray;
+    display: none;
+    min-width: 100%;
+    text-align: left;
+}
+
+.drp-container:hover .drp-content {
+    display: block;
+}
+
+.drp-content a {
+    display: block;
+    padding: 5px;
+}
+
+.drp-content a:hover {
+    background-color: cadetblue;
+}
+
+.drp-content a:active {
+    background-color: coral;
+}
+
+.drp a:active {
+    background-color: coral;
+}

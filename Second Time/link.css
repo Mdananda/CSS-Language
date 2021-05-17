@@ -1,0 +1,32 @@
+.link {
+    margin: 0 auto;
+    width: 500px;
+    height: 80px;
+    background-color: darkgreen;
+}
+
+.link ul {
+    display: block;
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: center;
+}
+
+.link ul li {
+    display: block;
+    margin: 10px;
+    float: left;
+}
+
+.link ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.link ul li a:hover {
+    padding: 3px;
+    border-radius: 5px;
+    background-color: brown;
+    cursor: pointer;
+}

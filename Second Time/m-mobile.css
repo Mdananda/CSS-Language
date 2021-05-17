@@ -1,0 +1,14 @@
+.menu {
+    flex-direction: column;
+}
+
+.menu a {
+    background-color: brown;
+    margin: 10px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: gray;
+}

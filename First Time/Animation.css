@@ -1,0 +1,28 @@
+img {
+    height: auto;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    /* animation-name: img-anim;
+    animation-duration: 3s; */
+}
+
+img:hover {
+    animation-name: img-anim;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img-anim {
+    from {
+        width: 200px;
+        border-color: aliceblue;
+    }
+    to {
+        width: 400px;
+        border-color: aqua;
+    }
+}

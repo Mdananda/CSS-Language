@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .div1 img {
+            height: 200px;
+            width: 200px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 200px;
+            border: 3px solid black;
+            border-radius: 50%;
+            position: relative;
+        }
+        
+        .div1 img:hover {
+            animation-name: wiki;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 5;
+            animation-timing-function: linear;
+        }
+        
+        @keyframes wiki {
+            0% {
+                top: 0px;
+                width: 200px;
+                left: 0px;
+            }
+            50% {
+                top: 100px;
+                border-color: cadetblue;
+                opacity: .5%;
+                left: 0px;
+            }
+            100% {
+                top: 0px;
+                width: 300px;
+                height: 300px;
+                border-color: brown;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <img src="logo.png" alt="Wiki">
+    </div>
+</body>
+
+</html>

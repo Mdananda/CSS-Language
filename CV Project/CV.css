@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F4F4F4;
+}
+
+.all-div{
+	width: 70%;
+	height: 100%;
+	background-color: #A9DAFA;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+.profile-img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	border: 3px solid white;
+	float: left;
+}
+div .bio{
+	float: left;
+	padding: 20px;
+}
+.contact{
+	float: right;
+	padding: 20px 2px;
+}
+p a{
+	font-size: 20px;
+	text-decoration: none;
+}
+p a:hover{
+	text-decoration: underline;
+	color: tomato;
+}
+
+hr{
+	border: 2px black solid;
+	width: 100%;
+}
+
+.clear-div{
+	clear: both;
+}
+
+/* Persion Information*/
+.main{
+
+}
+#personal-information{
+	
+}
+.personal{
+	margin: 0 auto;
+	max-width: 80%;
+	background-color: #A9DAFA;
+
+
+}
+.left-div{
+	float: left;
+	width: 30%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.right-div{
+	float: left;
+	width: 70%;
+	text-align: justify;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.common-hr{
+	border-style: bold;
+	border: 1px solid black;
+	width: 100%;
+	margin: 20px auto;
+}

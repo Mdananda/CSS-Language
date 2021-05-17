@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+.skill-container {
+    background-color: gray;
+    height: 400px;
+    width: 500px;
+    padding: 5px;
+}
+
+.skill-container li {
+    margin: 50px 5px;
+    font-weight: bold;
+    list-style-type: none;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.skill-container li::before {
+    content: '';
+    position: absolute;
+    top: calc(25px);
+    left: 0;
+    background-color: gainsboro;
+    height: 25px;
+    width: 100%;
+    border-radius: 1000px;
+}
+
+.skill-container li::after {
+    content: '';
+    position: absolute;
+    top: calc(25px);
+    left: 0;
+    background-color: olivedrab;
+    height: 25px;
+    width: 0%;
+    border-radius: 1000px;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+}
+
+.skill-container li.html::after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 70%;
+        background-color: orange;
+    }
+}
+
+.skill-container li.css::after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 50%;
+        background-color: orange;
+    }
+}
+
+.skill-container li.java::after {
+    animation-name: java;
+}
+
+@keyframes java {
+    to {
+        width: 70%;
+        background-color: orange;
+    }
+}
+
+.skill-container li.cplus::after {
+    animation-name: cplus;
+}
+
+@keyframes cplus {
+    to {
+        width: 80%;
+        background-color: tomato;
+    }
+}

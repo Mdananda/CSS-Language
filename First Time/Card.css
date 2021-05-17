@@ -1,0 +1,31 @@
+.containers {
+    box-sizing: border-box;
+    background-color: lightgreen;
+    flex-flow: row wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.card {
+    width: 300px;
+    margin: 2px;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px black;
+}
+
+.img-style {
+    width: 100%;
+}
+
+.text p {
+    text-align: justify;
+    background-color: gray;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 3px white;
+}

@@ -1,0 +1,6 @@
+.Gradiant-style {
+    height: 300px;
+    width: 100%;
+    background-image: radial-gradient(circle, blue, green, orange, tomato);
+    /* W3 School details information about the Gradient. */
+}

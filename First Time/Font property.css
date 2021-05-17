@@ -1,0 +1,31 @@
+#bd{
+	font-family: 'Reggae One', cursive;
+	font-size: 20px;
+	font-style: italic;
+	text-align: justify;
+	font-weight: bold;
+	/* we can easily selected the color using by Colorzilla */
+	color: #48C9B0;
+	border:solid blue;
+}
+body{
+	background-color:#EEEEEE;
+}
+.text{
+	direction:rtl; 
+	unicode-bidi: bidi-override;
+	vertical-align: middle;
+	text-decoration: unset;
+	text-transform: none;
+	letter-spacing: 5px;
+	word-spacing: 2px;  
+	text-indent: 50px; 
+	line-height: 30px;
+	white-space: normal;
+	text-shadow: 2px 2px blue;
+}
+
+span{
+	color: red;
+	size:50px;
+}

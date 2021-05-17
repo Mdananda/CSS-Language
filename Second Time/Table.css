@@ -1,0 +1,30 @@
+table {
+    border: 1px solid indigo;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td,
+th {
+    border: 1px solid indigo;
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    background-color: darkgreen;
+    color: white;
+    height: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: azure;
+}
+
+tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+tr:hover {
+    background-color: tomato;
+}

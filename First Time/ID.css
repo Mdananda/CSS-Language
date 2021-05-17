@@ -1,0 +1,14 @@
+/* Where dot sign is used for Class Selector. */
+.shuvo{
+	color: blue;
+	border: double;
+	text-align: justify;
+	padding: 10px;
+	border-spacing: 10px;
+	border-color: red;
+	font-size: 120%;
+}
+
+#joy{
+	text-align: right;
+}

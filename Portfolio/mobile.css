@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: rgb(4, 70, 61);
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+
+/* For Mobile */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+.nav-name h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.nav-img {
+    padding: 30px 100px;
+}
+
+.nav-manu {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.nav-manu a {
+    background-color: rgb(4, 70, 61);
+    border-radius: 10px;
+    margin: 7px 0;
+    padding: 10px;
+}
+
+.nav-manu a:hover {
+    background-color: goldenrod;
+}
+
+.nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
